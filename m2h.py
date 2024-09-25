@@ -13,7 +13,7 @@ from threading import Thread
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '7328943391:AAHfbJKI5DByTKn6meVfhJeBlJrZz02_SdI'
+TOKEN = '7777501669:AAHfa-sYrc3b3NkefrtejMMe0min3Ux9ZnA'
 MONGO_URI = 'mongodb+srv://Bishal:Bishal@bishal.dffybpx.mongodb.net/?retryWrites=true&w=majority&appName=Bishal'
 FORWARD_CHANNEL_ID = -1002272999849
 CHANNEL_ID = -1002272999849
@@ -176,7 +176,7 @@ def send_welcome(message):
     btn3 = KeyboardButton("Canary Download ✅")
     btn4 = KeyboardButton("My Account🏦")
     btn5 = KeyboardButton("Help❓")
-    btn6 = KeyboardButton("Contact admin✔️")
+    btn6 = KeyboardButton("Contact admin")
     btn7 = KeyboardButton("Owner : @m2hgamerz")
 
     # Add buttons to the markup
