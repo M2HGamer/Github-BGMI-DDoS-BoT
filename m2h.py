@@ -15,9 +15,9 @@ loop = asyncio.get_event_loop()
 
 TOKEN = '7328943391:AAHfbJKI5DByTKn6meVfhJeBlJrZz02_SdI'
 MONGO_URI = 'mongodb+srv://Bishal:Bishal@bishal.dffybpx.mongodb.net/?retryWrites=true&w=majority&appName=Bishal'
-FORWARD_CHANNEL_ID = -1001970210072
-CHANNEL_ID = -1001970210072
-error_channel_id = -1001970210072
+FORWARD_CHANNEL_ID = -1002272999849
+CHANNEL_ID = -1002272999849
+error_channel_id = -1002272999849
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
@@ -180,7 +180,7 @@ def send_welcome(message):
     btn7 = KeyboardButton("Owner : @m2hgamerz")
 
     # Add buttons to the markup
-    markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
+    markup.add(btn1, btn2, btn3, btn4, btn5, btn6, btn7)
 
     bot.send_message(message.chat.id, "*Choose an option:*", reply_markup=markup, parse_mode='Markdown')
 
